@@ -1,0 +1,431 @@
+{
+    "9MOBILE": [
+      {
+        "planId": 65,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "500MB",
+        "amount": "₦75",
+        "validityDays": 7
+      },
+      {
+        "planId": 57,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "1GB",
+        "amount": "₦145",
+        "validityDays": 30
+      },
+      {
+        "planId": 58,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "2GB",
+        "amount": "₦290",
+        "validityDays": 30
+      },
+      {
+        "planId": 59,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "3GB",
+        "amount": "₦435",
+        "validityDays": 30
+      },
+      {
+        "planId": 60,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "5GB",
+        "amount": "₦725",
+        "validityDays": 30
+      },
+      {
+        "planId": 61,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "10GB",
+        "amount": "₦1450",
+        "validityDays": 30
+      }
+    ],
+    "AIRTEL": [
+      {
+        "planId": 27,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "300MB",
+        "amount": "₦105",
+        "validityDays": 30
+      },
+      {
+        "planId": 17,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "500MB",
+        "amount": "₦140",
+        "validityDays": 7
+      },
+      {
+        "planId": 19,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "1GB",
+        "amount": "₦280",
+        "validityDays": 30
+      },
+      {
+        "planId": 20,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "2GB",
+        "amount": "₦560",
+        "validityDays": 30
+      },
+      {
+        "planId": 21,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "5GB",
+        "amount": "₦1400",
+        "validityDays": 30
+      },
+      {
+        "planId": 23,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "10GB",
+        "amount": "₦2800",
+        "validityDays": 30
+      },
+      {
+        "planId": 24,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "15GB",
+        "amount": "₦4200",
+        "validityDays": 30
+      },
+      {
+        "planId": 25,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "20GB",
+        "amount": "₦5600",
+        "validityDays": 30
+      },
+      {
+        "planId": 99,
+        "type": "GIFTING",
+        "dataSize": "100MB",
+        "amount": "₦55",
+        "validityDays": 1
+      },
+      {
+        "planId": 101,
+        "type": "GIFTING",
+        "dataSize": "300MB",
+        "amount": "₦115",
+        "validityDays": 2
+      },
+      {
+        "planId": 100,
+        "type": "GIFTING",
+        "dataSize": "1GB",
+        "amount": "₦215",
+        "validityDays": 2
+      },
+      {
+        "planId": 102,
+        "type": "GIFTING",
+        "dataSize": "2GB",
+        "amount": "₦315",
+        "validityDays": 2
+      },
+      {
+        "planId": 103,
+        "type": "GIFTING",
+        "dataSize": "3GB",
+        "amount": "₦515",
+        "validityDays": 7
+      },
+      {
+        "planId": 104,
+        "type": "GIFTING",
+        "dataSize": "4GB",
+        "amount": "₦1015",
+        "validityDays": 30
+      },
+      {
+        "planId": 105,
+        "type": "GIFTING",
+        "dataSize": "10GB",
+        "amount": "₦2015",
+        "validityDays": 30
+      },
+      {
+        "planId": 106,
+        "type": "GIFTING",
+        "dataSize": "15GB",
+        "amount": "₦3015",
+        "validityDays": 30
+      }
+    ],
+    "GLO": [
+      {
+        "planId": 96,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "200MB",
+        "amount": "₦70",
+        "validityDays": 14
+      },
+      {
+        "planId": 55,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "500MB",
+        "amount": "₦135",
+        "validityDays": 30
+      },
+      {
+        "planId": 50,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "1GB",
+        "amount": "₦270",
+        "validityDays": 30
+      },
+      {
+        "planId": 51,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "2GB",
+        "amount": "₦540",
+        "validityDays": 30
+      },
+      {
+        "planId": 52,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "3GB",
+        "amount": "₦810",
+        "validityDays": 30
+      },
+      {
+        "planId": 53,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "5GB",
+        "amount": "₦1350",
+        "validityDays": 30
+      },
+      {
+        "planId": 54,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "10GB",
+        "amount": "₦2700",
+        "validityDays": 30
+      },
+      {
+        "planId": 108,
+        "type": "GIFTING",
+        "dataSize": "1GB",
+        "amount": "₦195",
+        "validityDays": 1
+      },
+      {
+        "planId": 109,
+        "type": "GIFTING",
+        "dataSize": "2GB",
+        "amount": "₦290",
+        "validityDays": 1
+      },
+      {
+        "planId": 110,
+        "type": "GIFTING",
+        "dataSize": "3.5GB",
+        "amount": "₦490",
+        "validityDays": 2
+      },
+      {
+        "planId": 111,
+        "type": "GIFTING",
+        "dataSize": "15GB",
+        "amount": "₦1950",
+        "validityDays": 7
+      }
+    ],
+    "MTN": [
+      {
+        "planId": 35,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "500MB",
+        "amount": "₦132",
+        "validityDays": 30
+      },
+      {
+        "planId": 33,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "1GB",
+        "amount": "₦265",
+        "validityDays": 30
+      },
+      {
+        "planId": 34,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "2GB",
+        "amount": "₦530",
+        "validityDays": 30
+      },
+      {
+        "planId": 47,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "3GB",
+        "amount": "₦795",
+        "validityDays": 30
+      },
+      {
+        "planId": 48,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "5GB",
+        "amount": "₦1325",
+        "validityDays": 30
+      },
+      {
+        "planId": 49,
+        "type": "CORPORATE-GIFTING",
+        "dataSize": "10GB",
+        "amount": "₦2650",
+        "validityDays": 30
+      },
+      {
+        "planId": 92,
+        "type": "COUPON",
+        "dataSize": "500MB",
+        "amount": "₦138",
+        "validityDays": 7
+      },
+      {
+        "planId": 3,
+        "type": "COUPON",
+        "dataSize": "750MB",
+        "amount": "₦198",
+        "validityDays": 7
+      },
+      {
+        "planId": 71,
+        "type": "COUPON",
+        "dataSize": "1GB",
+        "amount": "₦215",
+        "validityDays": 1
+      },
+      {
+        "planId": 4,
+        "type": "COUPON",
+        "dataSize": "1GB",
+        "amount": "₦253",
+        "validityDays": 7
+      },
+      {
+        "planId": 93,
+        "type": "COUPON",
+        "dataSize": "1.5GB",
+        "amount": "₦385",
+        "validityDays": 30
+      },
+      {
+        "planId": 2,
+        "type": "COUPON",
+        "dataSize": "2GB",
+        "amount": "₦510",
+        "validityDays": 30
+      },
+      {
+        "planId": 72,
+        "type": "COUPON",
+        "dataSize": "3.5GB",
+        "amount": "₦515",
+        "validityDays": 2
+      },
+      {
+        "planId": 6,
+        "type": "COUPON",
+        "dataSize": "3GB",
+        "amount": "₦660",
+        "validityDays": 30
+      },
+      {
+        "planId": 94,
+        "type": "COUPON",
+        "dataSize": "4.5GB",
+        "amount": "₦1100",
+        "validityDays": 30
+      },
+      {
+        "planId": 112,
+        "type": "COUPON",
+        "dataSize": "5GB",
+        "amount": "₦1340",
+        "validityDays": 30
+      },
+      {
+        "planId": 70,
+        "type": "COUPON",
+        "dataSize": "15GB",
+        "amount": "₦2015",
+        "validityDays": 7
+      },
+      {
+        "planId": 79,
+        "type": "GIFTING",
+        "dataSize": "1GB",
+        "amount": "₦220",
+        "validityDays": 30
+      },
+      {
+        "planId": 78,
+        "type": "GIFTING",
+        "dataSize": "2GB",
+        "amount": "₦440",
+        "validityDays": 30
+      },
+      {
+        "planId": 77,
+        "type": "GIFTING",
+        "dataSize": "3GB",
+        "amount": "₦660",
+        "validityDays": 30
+      },
+      {
+        "planId": 76,
+        "type": "GIFTING",
+        "dataSize": "5GB",
+        "amount": "₦1100",
+        "validityDays": 30
+      },
+      {
+        "planId": 41,
+        "type": "SME",
+        "dataSize": "500MB",
+        "amount": "₦130",
+        "validityDays": 30
+      },
+      {
+        "planId": 42,
+        "type": "SME",
+        "dataSize": "1GB",
+        "amount": "₦260",
+        "validityDays": 30
+      },
+      {
+        "planId": 43,
+        "type": "SME",
+        "dataSize": "2GB",
+        "amount": "₦520",
+        "validityDays": 30
+      },
+      {
+        "planId": 44,
+        "type": "SME",
+        "dataSize": "3GB",
+        "amount": "₦780",
+        "validityDays": 30
+      },
+      {
+        "planId": 45,
+        "type": "SME",
+        "dataSize": "5GB",
+        "amount": "₦1300",
+        "validityDays": 30
+      },
+      {
+        "planId": 46,
+        "type": "SME",
+        "dataSize": "10GB",
+        "amount": "₦2600",
+        "validityDays": 30
+      }
+    ]
+  }
+  
