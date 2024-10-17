@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import "./styles/Login.css";
 
 function Login({ onAuthSuccess }) {
-  const [formData, setFormData] = useState({ email: "", password: "" });
+  const [error, setError] = useState("");
+  const [formData, setFormData] = useState({
+    identifier: "",
+    password: "",
+  });
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -12,42 +17,51 @@ function Login({ onAuthSuccess }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError("");
     try {
-      await axios.post("http://localhost:5000/api/auth/login", formData);
+      const data = {
+        identifier: formData.identifier,
+        password: formData.password,
+      };
+      await axios.post("http://localhost:5000/api/auth/login", data);
       onAuthSuccess();
       navigate("/subscription");
-    } catch (error) {
-      if (error.response) {
-        // If the error has a response (like 400 or 500 from the server), log the actual error message
-        console.error("Signup failed:", error.response.data);
-      } else if (error.request) {
-        // If the request was made but no response was received
-        console.error("No response received:", error.request);
+    } catch (err) {
+      if (err.response && err.response.status === 400) {
+        setError("Invalid credentials. Please try again.");
+        setPassword(""); // Reset the password field
       } else {
-        // Something happened in setting up the request that triggered an Error
-        console.error("Error setting up request:", error.message);
+        console.error("Error logging in:", err.message);
       }
     }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="email"
-        name="email"
-        placeholder="Email"
-        onChange={handleChange}
-        required
-      />
-      <input
-        type="password"
-        name="password"
-        placeholder="Password"
-        onChange={handleChange}
-        required
-      />
-      <button type="submit">Login</button>
-    </form>
+    <div className="form-container">
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="identifier"
+          placeholder="Email, Phone Number, or Username"
+          value={formData.identifier}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          value={formData.password}
+          onChange={handleChange}
+          required
+        />
+        {error && <p className="error-message">{error}</p>}
+        <button type="submit">Login</button>
+      </form>
+      <p>
+        Don't have an account? <Link to="/signup">Sign Up</Link>
+      </p>
+    </div>
   );
 }
 
