@@ -7,31 +7,31 @@ CheaperData is a web application that helps users compare and purchase affordabl
 
 # Features
 
--Compare data plans from different network providers.
--View real-time data pricing.
--User authentication (Login & Signup).
--Secure payment processing.
--User account management.
--Simple and responsive design.
+- Compare data plans from different network providers.
+- View real-time data pricing.
+- User authentication (Login & Signup).
+- Secure payment processing.
+- User account management.
+- Simple and responsive design.
 
 # Tech Stack
 
 ## Frontend:
 
--React
--Vite
--React Router
--Axios
--CSS
+- React
+- Vite
+- React Router
+- Axios
+- CSS
 
 ## Backend:
 
--Node.js
--Express
--MongoDB
--JWT for authentication
--bcryptjs for password encryption
--Mongoose for database modeling
+- Node.js
+- Express
+- MongoDB
+- JWT for authentication
+- bcryptjs for password encryption
+- Mongoose for database modeling
 
 # Getting Started
 
@@ -39,8 +39,8 @@ CheaperData is a web application that helps users compare and purchase affordabl
 
 Make sure you have the following installed:
 
--Node.js
--MongoDB (You can use MongoDB Atlas as an alternative)
+- Node.js
+- MongoDB (You can use MongoDB Atlas as an alternative)
 
 # Installation
 
@@ -101,8 +101,8 @@ npm run dev
 
 Access the Application: The application should be running on:
 
--Frontend: http://localhost:5173
--Backend: http://localhost:5000
+- Frontend: http://localhost:5173
+- Backend: http://localhost:5000
 
 # Folder Structure
 
