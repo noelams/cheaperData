@@ -29,7 +29,6 @@ function Login({ onAuthSuccess }) {
     } catch (err) {
       if (err.response && err.response.status === 400) {
         setError("Invalid credentials. Please try again.");
-        setPassword(""); // Reset the password field
       } else {
         console.error("Error logging in:", err.message);
       }
