@@ -1,10 +1,12 @@
 <!-- # cheaperData
 A simple site for buying data at a cheaper price -->
 
-#CheaperData
+# CheaperData
+
 CheaperData is a web application that helps users compare and purchase affordable data plans across various network providers. This project is targeted towards Nigerian users, providing real-time data pricing, secure payment options, and personalized recommendations.
 
-#Features
+# Features
+
 Compare data plans from different network providers.
 View real-time data pricing.
 User authentication (Login & Signup).
@@ -12,8 +14,9 @@ Secure payment processing.
 User account management.
 Simple and responsive design.
 
-#Tech Stack
-##Frontend:
+# Tech Stack
+
+## Frontend:
 
 React
 Vite
@@ -21,7 +24,7 @@ React Router
 Axios
 CSS
 
-##Backend:
+## Backend:
 
 Node.js
 Express
@@ -30,22 +33,25 @@ JWT for authentication
 bcryptjs for password encryption
 Mongoose for database modeling
 
-#Getting Started
-##Prerequisites
+# Getting Started
+
+## Prerequisites
+
 Make sure you have the following installed:
 
 Node.js
 MongoDB (You can use MongoDB Atlas as an alternative)
 
-#Installation
-##Clone the Repository:
+# Installation
+
+## Clone the Repository:
 
 ```bash
 git clone https://github.com/your-username/CheaperData.git
 cd CheaperData
 ```
 
-##Backend Setup:
+## Backend Setup:
 
 Navigate to the backend folder:
 
@@ -73,7 +79,7 @@ Start the backend server:
 npm start
 ```
 
-##Frontend Setup:
+## Frontend Setup:
 
 Navigate to the frontend folder:
 
@@ -98,7 +104,7 @@ Access the Application: The application should be running on:
 Frontend: http://localhost:5173
 Backend: http://localhost:5000
 
-#Folder Structure
+# Folder Structure
 
 ```arduino
 CheaperData/
@@ -119,18 +125,24 @@ CheaperData/
 │   ├── public/
 │   └── vite.config.js
 └── README.md
+```
 
-#Usage
-##User Authentication:
+# Usage
+
+## User Authentication:
 
 Users can register and log in to the application.
 JWT tokens are used to authenticate users securely.
 
-##Data Plans:
+## Data Plans:
 
 Users can view and compare different data plans.
 The data is fetched in real-time using Axios from the backend.
 
-#Contribution
+# Contribution
+
 Feel free to fork this project and submit pull requests. Please make sure to write clear, concise commit messages and document your code properly.
+
+```
+
 ```
