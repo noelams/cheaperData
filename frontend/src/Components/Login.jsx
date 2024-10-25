@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 import "./styles/Login.css";
+import Button from "./UI/Button";
 
 function Login({ onAuthSuccess }) {
   const [error, setError] = useState("");
@@ -55,7 +56,9 @@ function Login({ onAuthSuccess }) {
           required
         />
         {error && <p className="error-message">{error}</p>}
-        <button type="submit">Login</button>
+        <Button color="blue" size="medium" type="submit">
+          Login
+        </Button>
       </form>
       <p>
         Don't have an account? <Link to="/signup">Sign Up</Link>

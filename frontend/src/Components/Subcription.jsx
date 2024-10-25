@@ -60,7 +60,9 @@ function Subcription() {
           })}
       </select>
       <input type="number" placeholder="Phone Number" />
-      <button className="subcribe-button">subcribe</button>
+      <Button color="blue" size="medium" type="submit">
+        Subscribe
+      </Button>
     </form>
   );
 }

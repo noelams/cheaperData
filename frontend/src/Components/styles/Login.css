@@ -20,7 +20,7 @@
     border-radius: 4px;
     font-size: 16px;
   }
-  
+/*   
   .login-button {
     width: 100%;
     padding: 10px;
@@ -35,7 +35,7 @@
   
   .login-button:hover {
     background-color: #45a049;
-  }
+  } */
   
   .error-message {
     color: red;

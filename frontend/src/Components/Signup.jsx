@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 import "./styles/Signup.css";
+import Button from "./UI/Button";
 
 function Signup({ onAuthSuccess }) {
   const [error, setError] = useState("");
@@ -95,7 +96,9 @@ function Signup({ onAuthSuccess }) {
             required
           />
         )}
-        <button type="submit">Sign Up</button>
+        <Button color="blue" size="medium" type="submit">
+          Sign up
+        </Button>
       </form>
       <p>
         Already have an account? <Link to="/login">Login</Link>

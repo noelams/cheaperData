@@ -45,7 +45,7 @@
     font-size: 16px;
   }
   
-  /* Style for subscribe button */
+  /* Style for subscribe button
   .subcribe-button {
     width: 100%;
     padding: 10px;
@@ -61,7 +61,7 @@
   /* Hover effect for the button */
   .subcribe-button:hover {
     background-color: #45a049;
-  }
+  } */
   
   /* Add focus effect for accessibility */
   .dropdown-menu:focus,
